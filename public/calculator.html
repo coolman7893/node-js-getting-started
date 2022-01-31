@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<title>Grade Calculator</title>
+<link rel="stylesheet" type="text/css" href="/stylesheets/calculator.css"/><script src="calculator.js"></script>
+</head>
+<body style = "background-color:#A6192E;">
+
+	<div class= "gradecalctxt"><h1>Grade Calculator</h1></div>
+	<div class= "activtxt">Activities</div>
+	<div class= "numacttxt">Give grades to the numeric activities:</div>
+	<div class= "resulttxt">Result</div>
+	<p1 id="Mgrade"></p1>
+	<p2 id="Wgrade"></p2>
+	
+
+	<div style = "background-color:white;
+    width:90%; 
+    height:890px; 
+    position:absolute;
+    top:0px; 
+		overflow: scroll;
+    left:63px; 
+    z-index:1;
+    box-shadow: 0px 0px 2px 1px black;">
+	</div>
+
+	<div style = "background-color:black; 
+		width:90%;
+  	height:25px; 
+  	position:absolute; 
+    top:0px; 
+    left:63px; 
+    z-index:2;">
+  </div>
+
+	<div style = "background-color:black; 
+    width:90%; 
+    height:50px; 
+    position:absolute; 
+    top:840px; 
+    left:63px; 
+    z-index:2;">
+  </div>
+
+  <div style = "background-color: #E9EFF1; 
+		width:900px; 
+    height:630px; 
+    position:absolute; 
+    top:170px; 
+		overflow:auto;
+    left:95px; 
+		border: 1px solid #CAD6DD;
+		border-radius: 3px;
+    z-index:3;">
+
+
+
+	<div class= "fortable"><table>
+		<thead>
+			<tr bgcolor = "#DDDDDD"> 
+				<th>Name</th>
+				<th>Short Name</th>
+				<th>Weight</th>
+				<th>Grade</th>
+				<th>Percent</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr bgcolor = "#E9EFF1">
+				<td>Activity 1</td>
+				<td>A1</td>
+				<form><td><input type="text" class="textboxid" id="weight1"></td></form>
+				<form><td><input type="text" class="textboxid" id="grade1"> / <input type="text" class="textboxid" id="total1"></td></form>
+				<td id="percent1"></td>
+			</tr>
+				<tr bgcolor = "#E9EFF1">
+					<td>Activity 2</td>
+					<td>A2</td>
+					<form><td><input type="text" class="textboxid" id="weight2"></td></form>
+					<form><td><input type="text" class="textboxid" id="grade2"> / <input type="text" class="textboxid" id="total2"></td></form>
+					<td id="percent2"> </td>
+			</tr>
+				<tr bgcolor = "#E9EFF1">
+					<td>Activity 3</td>
+					<td>A3</td>
+					<form><td><input type="text" class="textboxid" id="weight3"></td></form>
+					<form><td><input type="text" class="textboxid" id="grade3"> / <input type="text" class="textboxid" id="total3"></td></form>
+					<td id="percent3"></td>
+			</tr>
+				<tr bgcolor = "#E9EFF1">
+					<td>Activity 4</td>
+					<td>A4</td>
+					<form><td><input type="text" class="textboxid" id="weight4"></td></form>
+					<form><td><input type="text" class="textboxid" id="grade4"> / <input type="text" class="textboxid" id="total4"></td></form>
+					<td id="percent4"></td>
+				</tr>
+			</tbody>
+			</table>
+
+			<input type="submit" value="ADD ACTIVITY" class="button1" onclick="newrow()">
+ 	 		<input type="submit" value="WEIGHTED" class="button2" onclick="weight()">
+		 	<input type="submit" value="MEAN" class="button3" onclick="mean()">
+			 
+			 </div>
+ 		</div>
+	</body>
+</html>
