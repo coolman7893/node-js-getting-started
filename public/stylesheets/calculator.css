@@ -16,10 +16,10 @@ td {
   text-align: left;
   font-family: Georgia,Times,Times New Roman,serif;
 }
-tbody>tr>:nth-child(4){
+tbody>tr>:nth-child(4) {
   padding-bottom: 2px;
 }
-tbody>tr>:nth-child(6){
+tbody>tr>:nth-child(6) {
   padding-bottom: 2px;
 }
 .gradecalctxt {
@@ -127,25 +127,25 @@ tbody>tr>:nth-child(6){
   border-radius: 5px;
 }
 #screen{
-text-align: left;
-color: black;
-font-size: 400px;
-top:500px;
-left: 200px;
+  text-align: left;
+  color: black;
+  font-size: 400px;
+  top:500px;
+  left: 200px;
 }
 p1{
-position: absolute;
-top: 74%;
-left: 110px;
-font-size: 15px;
-font-family: Georgia,Times,Times New Roman,serif;
-z-index:555;
+  position: absolute;
+  top: 74%;
+  left: 110px;
+  font-size: 15px;
+  font-family: Georgia,Times,Times New Roman,serif;
+  z-index:555;
 }
 p2{
-position: absolute;
-top: 74%;
-left: 110px;
-font-size: 15px;
-font-family: Georgia,Times,Times New Roman,serif;
-z-index:555;
+  position: absolute;
+  top: 74%;
+  left: 110px;
+  font-size: 15px;
+  font-family: Georgia,Times,Times New Roman,serif;
+  z-index:555;
 }
